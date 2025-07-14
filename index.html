@@ -1,81 +1,112 @@
-<!DOCTYPE html>  <html lang="en">    <head>    
-  <meta charset="UTF-8" />    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
-  <title>InboxIgniter | Conversion-Powered Email Copywriting</title>    
-  <style>    
-    * {    
-      margin: 0;    
-      padding: 0;    
-      box-sizing: border-box;    
-    }  body {    
-  background-color: #0d0d0d;    
-  color: #ffffff;    
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
-  display: flex;    
-  flex-direction: column;    
-  align-items: center;    
-  justify-content: center;    
-  height: 100vh;    
-  text-align: center;    
-  padding: 20px;    
-}    h1 {
-font-size: 3rem;
-color: #ff5e00; /* punchy orange highlight */
-margin-bottom: 0.5rem;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InboxIgniter | Conversion-Powered Email Copywriting</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #ff5e00;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #cccccc;
+      max-width: 700px;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+    a.button {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 1rem;
+      background: #ff5e00;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #ff3c00;
+    }
+    section {
+      max-width: 700px;
+      margin-top: 30px;
+      text-align: left;
+      color: #ddd;
+    }
+    section h2 {
+      color: #ff5e00;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    footer {
+      margin-top: auto;
+      font-size: 0.8rem;
+      color: #555;
+    }
+    footer a {
+      color: #888;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a.button {
+        padding: 12px 24px;
+      }
+      section {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Emails That Sell. Clients That Stay.</h1>
+  <p>
+    High-converting promotional email copy built to ignite opens, clicks, and revenue — without sounding salesy.
+  </p>
+  <a class="button" href="https://inboxigniter.thesimple.ink/" target="_blank" rel="noopener noreferrer">View Portfolio + Client Wins</a>
 
-p {
-font-size: 1.2rem;
-color: #cccccc;
-max-width: 700px;
-margin-bottom: 2rem;
-}
+  <section>
+    <h2>About InboxIgniter</h2>
+    <p>
+      InboxIgniter specializes in writing promotional emails that boost sales and build lasting client relationships. Trusted by startups and growing businesses for conversion-driven email copywriting.
+    </p>
+    <h2>Sample Projects</h2>
+    <ul>
+      <li><a href="https://inboxigniter.thesimple.ink/project1" target="_blank" rel="noopener noreferrer" style="color:#ff5e00;">Project One</a> — Increased open rates by 35% for an e-commerce brand.</li>
+      <li><a href="https://inboxigniter.thesimple.ink/project2" target="_blank" rel="noopener noreferrer" style="color:#ff5e00;">Project Two</a> — Helped a SaaS startup double click-through rates.</li>
+      <li><a href="https://inboxigniter.thesimple.ink/project3" target="_blank" rel="noopener noreferrer" style="color:#ff5e00;">Project Three</a> — Created email sequences that boosted revenue by 50%.</li>
+    </ul>
+  </section>
 
-a.button {
-display: inline-block;
-padding: 14px 28px;
-font-size: 1rem;
-background: #ff5e00;
-color: #ffffff;
-text-decoration: none;
-border-radius: 8px;
-transition: background 0.3s ease;
-}
-
-a.button:hover {
-background: #ff3c00;
-}
-
-footer {
-position: absolute;
-bottom: 15px;
-font-size: 0.8rem;
-color: #555;
-}
-
-@media (max-width: 600px) {
-h1 {
-font-size: 2.2rem;
-}
-
-p {
-font-size: 1rem;
-}
-
-a.button {
-padding: 12px 24px;
-}
-}
-
-  </style>    
-</head>    
-<body>    
-  <h1>Emails That Sell. Clients That Stay.</h1>    
-  <p>    
-    High-converting promotional email copy built to ignite opens, clicks, and revenue — without sounding salesy.    
-  </p>    
-  <a class="button" href="https://inboxigniter.thesimple.ink/" target="_blank">View Portfolio + Client Wins</a>    <footer>    
-    inboxigniter.js.org • Built by <a href="https://github.com/InboxIgnitr" target="_blank" style="color: #888;">InboxIgnitr</a>    
-  </footer>    
-</body>    
-</html>  
+  <footer>
+    inboxigniter.js.org • Built by <a href="https://github.com/InboxIgnitr" target="_blank" rel="noopener noreferrer">InboxIgnitr</a>
+  </footer>
+</body>
+</html>
